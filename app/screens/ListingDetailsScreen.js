@@ -1,9 +1,9 @@
-import { StyleSheet, View, Image } from "react-native";
 import React from "react";
-
-import colors from "../config/colors";
+import { View, Image, StyleSheet } from "react-native";
 import AppText from "../components/AppText";
+
 import ListItem from "../components/ListItem";
+import colors from "../config/colors";
 
 function ListingDetailsScreen(props) {
   return (
@@ -15,8 +15,8 @@ function ListingDetailsScreen(props) {
         <View style={styles.userContainer}>
           <ListItem
             image={require("../assets/mosh.jpg")}
-            title={"Mosh Hamedani"}
-            subTitle={"5 Listings"}
+            title="Mosh Hamedani"
+            subTitle="5 Listings"
           />
         </View>
       </View>
